@@ -1,0 +1,91 @@
+﻿.headerbox {
+    background-image: url(https://cdn.pling.com/img/a/2/a/5/31c196d644d2563de72a36b8eb862141afd0.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    z-index: -10;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+}
+.coverImage {
+    width: 99vw;
+    height: 70vh
+}
+
+.rightbox {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    justify-items: flex-end;
+    justify-content: flex-end;
+    text-align: end;
+    padding-right: 10%;
+    padding-bottom: 10vh;
+}
+
+.rightbox2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: end;
+}
+
+
+.leftbox {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.leftbox2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: start;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.globebox {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.innerglobe {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.minusmargin {
+    margin-top: -90px;
+}
+
+    .minusmargin img {
+        width: 70%;
+    }
+
+.discoverleft {
+    text-align: left;
+    font-size: 70px;
+}
+
+.discoverright {
+    text-align: right;
+    font-size: 70px;
+}
